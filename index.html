@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <title>Frontend Mentor | Tip calculator app</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+  </style>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <img src="/images/logo.svg" alt="">
+  <div class="container">
+    <div class="input">
+      <div class="bill">
+        <div>Bill</div>
+        <input type="number" id="payment">
+      </div>
+      <div class="tip">
+        <div>Select Tip %</div>
+        <div class="tips">
+          5%
+          10%
+          15%
+          25%
+          50%
+          Custom
+        </div>
+      </div>
+      <div class="peopleNum">
+        <div>Number of People</div>
+        <input type="num">
+      </div>
+    </div>
+    <div class="total">
+      <div class="tipAmount">
+        <div class="text">
+          Tip Amount
+          / person
+        </div>
+        <div class="tipPay"></div>
+      </div>
+      <div class="total">
+        <div class="text">
+          Total
+          / person
+        </div>
+        <div class="totalPay"></div>
+      </div>
+      <button>RESET</button>
+    </div>
+  </div>
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="#">Your Name Here</a>.
+  </div>
+</body>
+
+</html>
